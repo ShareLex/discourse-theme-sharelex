@@ -1,0 +1,23 @@
+.header-wrapper .logo {
+    width: 380px;
+    float: left;
+}
+
+.header-wrapper .text {
+    width: 500px;
+    float: right;
+}
+
+.header-wrapper {
+    // margin-top: 3rem;
+    padding: 2rem;
+    padding-left: 175px;
+}
+
+.header-wrapper:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
